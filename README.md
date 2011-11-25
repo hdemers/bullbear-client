@@ -19,9 +19,12 @@ Requirements
 
 Usage
 -----
-Simple start the client webserver:
+Simply start the client webserver:
 
     python client.py
+
+By default, it listens on port 8080. You can change that by giving the port as
+an argument on the command line.
 
 Data format
 -----------
