@@ -1,21 +1,27 @@
 Description
 ===========
-
 This is an example client endpoint written in python for receiving real-time
 updates from [BullBear](www.bullbear.ca).
 
-BullBear uses Amazon Simple Notification Service (SNS) to send update, in
-real-time, for each processed document and for each commodity update.
+BullBear uses Amazon Simple Notification Service,
+[SNS](http://aws.amazon.com/sns/) to send update, in real-time, for each
+processed document and for each commodity update.
 
 You must have a webserver listening on some port for POST requests. This is
 easily achievable through a library like [web.py](http://webpy.org/).
 
 Requirements
 ------------
+
  - python
  - [web.py](http://webpy.org/)
  - simplejson
 
+Usage
+-----
+Simple start the client webserver:
+
+    python client.py
 
 Data format
 -----------
